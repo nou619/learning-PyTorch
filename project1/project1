@@ -1,5 +1,5 @@
 import torch
-a = torch.tensor(2.0)
-b = torch.tensor(3.0)
+a = torch.tensor(float(input("Enter first number: ")))
+b = torch.tensor(float(input("Enter second number: ")))
 c = a + b
-print(c)  
+print("The sum is:", c.item())
